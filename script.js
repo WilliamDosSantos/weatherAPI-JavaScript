@@ -16,7 +16,7 @@ button.addEventListener("click", () => {
 async function getDataApi() {
   let url = `https://api.openweathermap.org/data/2.5/weather?q=${encodeURI(
     input.value
-  )}&units=metric&appid=4200130a0ec561385430b3e2a57030f4`;
+  )}&units=metric&appid=YOUR_TOKEN`;
 
   try {
     await fetch(url)
